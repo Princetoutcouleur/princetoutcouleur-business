@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100%;
+    width: 1280px; */
+    overflow-x: hidden;
+}
+/* Navbar */
+header .navbar .navbar-collapse ul{
+    margin-right: 120px;
+}
+header .navbar .navbar-collapse ul li{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+header .navbar .navbar-collapse form{
+    margin-right: 30px;
+}
+header .navbar .navbar-collapse form input{
+    border-radius: 15px;
+}
+header .navbar .navbar-collapse form button{
+    border-radius: 15px;
+}
+
+/* banner */
+.banner .description{
+    padding: 40px 20px;
+}
+.banner .description h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner .description h1 span{
+    color: gray;
+}
+.banner .description p{
+    font-size: 22px;
+}
+.banner .description .connexion{
+    margin-left: 50px;
+}
+.banner .description .connexion button{
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.banner .description .connexion .login{
+    background-color: black;
+    color: white;
+}
+.banner .description .connexion .login:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner .description .connexion .register{
+    background-color: black;
+    color: white;
+}
+.banner .description .connexion .register:hover {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.banner img{
+    width: 350px;
+    height: 450px;
+}
+/* Modals */
+.modal{
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+}
+.modal .modal-title{
+    font-size: 25px;
+}
+.modal .modal-body{
+    padding-left: 50px;
+}
+.modal .modal-body label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modal .modal-body input{
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+.modal .modal-body button{
+    height: 40px;
+    text-align: center;
+    margin-left: 30%;
+}
+.banner .right_button{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.banner .right_button a button{
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+.banner .right_button a button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* footer */
+.footer{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.footer ul li{
+    margin-right: 40px;
+    font-size: 30px;
+}
+.footer ul li a{
+    color: black;
+}
+.footer ul li a:hover{
+    color: gray;
+}
+.footer .copyright-text{
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer .copyright-text a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.footer .copyright-text a:hover{
+    color: black;
+}
+/* Produits les plus achetés */
+.plus-achetés{
+    padding-top: 20px;
+}
+.plus-achetés .card{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.plus-achetés .card img{
+    height: 250px;
+}
+.plus-achetés .card .btn-dark{
+    border-radius: 20px;
+}
+/* formuliare de contact */
+.formulaire{
+    max-width: 600px !important;
+    margin: auto;
+}
+.contact-form{
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.contact-form label{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.contact-form input{
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+.contact-form textarea{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.contact-form button{
+    margin-top: 10px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+.contact-form button:hover{
+    background-color: gray;
+}
