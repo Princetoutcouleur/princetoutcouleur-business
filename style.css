@@ -4,8 +4,6 @@
     padding: 0;
 }
 body{
-    /* height: 100%;
-    width: 1280px; */
     overflow-x: hidden;
 }
 /* Navbar */
@@ -41,31 +39,17 @@ header .navbar .navbar-collapse form button{
 .banner .description p{
     font-size: 22px;
 }
-.banner .description .connexion{
-    margin-left: 50px;
-}
-.banner .description .connexion button{
-    width: 150px;
+.banner .description a button{
+    width: 200px;
+    height: 40px;
     margin-right: 20px;
     margin-top: 20px;
     border-radius: 15px;
-    font-weight: 700;
-}
-.banner .description .connexion .login{
+    font-weight: 500;
     background-color: black;
     color: white;
 }
-.banner .description .connexion .login:hover{
-    background-color: white;
-    color: black;
-    font-size: 20px;
-    font-weight: 700;
-}
-.banner .description .connexion .register{
-    background-color: black;
-    color: white;
-}
-.banner .description .connexion .register:hover {
+.banner .description a button:hover{
     background-color: white;
     color: black;
     font-weight: 700;
@@ -74,36 +58,7 @@ header .navbar .navbar-collapse form button{
     width: 350px;
     height: 450px;
 }
-/* Modals */
-.modal{
-    width: 50%;
-    height: 50%;
-    padding: 30px;
-}
-.modal .modal-title{
-    font-size: 25px;
-}
-.modal .modal-body{
-    padding-left: 50px;
-}
-.modal .modal-body label{
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.modal .modal-body input{
-    width: 90%;
-    height: 40px;
-    padding-left: 20px;
-    border-radius: 15px;
-}
-.modal .modal-body button{
-    height: 40px;
-    text-align: center;
-    margin-left: 30%;
-}
+
 .banner .right_button{
     margin-left: 100px;
     margin-top: 15px;
