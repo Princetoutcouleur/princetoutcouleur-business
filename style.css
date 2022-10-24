@@ -30,11 +30,12 @@ header .navbar .navbar-collapse form button{
     padding: 40px 20px;
 }
 .banner .description h1{
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
 }
 .banner .description h1 span{
     color: gray;
+    font-weight: 700;
 }
 .banner .description p{
     font-size: 22px;
