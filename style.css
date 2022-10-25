@@ -57,10 +57,10 @@ header .navbar .navbar-collapse form button{
     font-weight: 700;
 }
 .banner .div-rigth{
-    padding-left: 70px;
+    margin: auto;
 }
 .banner .div-rigth img{
-    width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -70,8 +70,9 @@ header .navbar .navbar-collapse form button{
     margin-top: 15px;
 }
 .banner .div-rigth .right_button a button{
-    width: 150px;
-    margin-right: 20px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-top: 20px;
     border-radius: 15px;
     font-weight: 700;
