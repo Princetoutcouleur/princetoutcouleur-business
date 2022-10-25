@@ -70,6 +70,9 @@ header .navbar .navbar-collapse form button{
     margin-top: 15px;
     margin-left: 60px
 }
+.banner .div-rigth .right_button a{
+    color: black;
+}
 .banner .div-rigth .right_button a button{
     width: 100px;
     margin-right: 10px;
