@@ -26,7 +26,7 @@ const Portfolio = () => {
         <div className="text-center mb-5">
           <h2 className="mb-3">Mon Portfolio</h2>
           <p>
-          Découvrez certains de mes récents projets de développement frontend .
+          Découvrez certains de mes récents projets de développement frontend.
           </p>
         </div>
         <div className="row">
