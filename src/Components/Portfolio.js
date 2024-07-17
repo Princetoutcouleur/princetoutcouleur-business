@@ -16,7 +16,7 @@ const Portfolio = () => {
       title: "tayeur",
       image: Tayeur,
       description:
-        "Pour ma première mission professionnelle, j'ai intégré les interfaces utilisateur avec React.js et Bootstrap, en collaboration avec l'équipe backend, améliorant ainsi l'expérience utilisateur et la communication entre les équipes.",
+        "Pour ma première mission professionnelle, j'ai intégré les interfaces utilisateur avec React.js et Bootstrap, en collaboration avec l'équipe backend, améliorant ainsi l'expérience utilisateur et la communication entre les équipes .",
       url: "https://tayeur-gestion.vercel.app/",
     },
   ];
