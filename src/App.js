@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import Navigation from "./Components/Navigation";
+import Header from "./Components/Header";
+import About from "./Components/About";
+import Portfolio from "./Components/Portfolio";
+import Services from "./Components/Services";
+import Contact from "./Components/Contact";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container-fluid">
+      <Navigation />
+      <Header />
+      <About />
+      <Portfolio />
+      <Services />
+      <Contact />
+      <a href="#Navigation">
+        <button className="btn btn-dark floating-button rounded-pill pb-2">
+          <FaArrowAltCircleUp className="fs-5" />
+        </button>
+      </a>
     </div>
   );
 }
