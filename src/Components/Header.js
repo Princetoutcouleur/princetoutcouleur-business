@@ -1,12 +1,12 @@
 import React from "react";
-import baba from "../Asset/baba.png";
+import newPic from "../Asset/newPic.jpg";
 
 const Header = () => {
   return (
     <div id="Header" className="container-fluid">
       <div className="container py-5">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 ">
+          <div className="col-lg-6 col-md-6 col-sm-12 mb-5 pt-5">
             <h1 className="mb-3">
               Développeur frontend et optimiseur de réseaux sociaux
             </h1>
@@ -29,9 +29,9 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+          <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
             <div>
-              <img src={baba} alt="" className="img-fluid rounded-circle" />
+              <img src={newPic} alt="" className="img-fluid rounded-pill" />
             </div>
           </div>
         </div>
