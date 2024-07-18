@@ -1,8 +1,35 @@
-import React from "react";
-import { FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
-import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = "my_business_contact";
+    const templateId = "template_22rt1ro";
+    const publicKey = "qK_Ak3CCp8yNBvSM3";
+
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: "Baba Thiam",
+      nessage: message,
+    };
+
+    emailjs
+      .send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log("Message envoyé avec succés!", response);
+      })
+      .catch((error) => {
+        console.log("Message non envoyé", error);
+      });
+  };
+
   return (
     <div id="Contact" className="container-fluid py-5">
       <div className="text-center mb-5">
@@ -13,67 +40,43 @@ const Contact = () => {
         </p>
       </div>
       <div className="d-flex justify-content-center">
-        <form className="">
-          <div class="form-floating mb-3">
+        <form id="contact-form" onSubmit={handleSubmit}>
+          <div className="form-floating mb-3">
+            <input
+              type="text"
+              className="form-control rounded-0 border border-dark border-1"
+              placeholder="Nom Complet"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+            <label htmlFor="user_name">Nom complet</label>
+          </div>
+          <div className="form-floating mb-3">
             <input
               type="email"
-              class="form-control rounded-0 border border-dark border-1"
-              id="floatingInput"
+              className="form-control rounded-0 border border-dark border-1"
               placeholder="name@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
             />
-            <label for="floatingInput">Nom complet</label>
+            <label htmlFor="user_email">Adresse email</label>
           </div>
-          <div class="form-floating mb-3">
-            <input
-              type="email"
-              class="form-control rounded-0 border border-dark border-1"
-              id="floatingInput"
-              placeholder="name@example.com"
-            />
-            <label for="floatingInput">Adresse email</label>
-          </div>
-          <div class="form-floating mb-3">
+          <div className="form-floating mb-3">
             <textarea
-              class="form-control rounded-0 border border-dark border-1"
-              placeholder="Leave a comment here"
-              id="floatingTextarea2"
+              className="form-control rounded-0 border border-dark border-1"
+              placeholder="Message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              required
             ></textarea>
-            <label for="floatingTextarea2">Message</label>
+            <label htmlFor="message">Message</label>
           </div>
           <div className="d-flex justify-content-center mb-4">
-            <button type="submit" class="btn btn-dark px-5">
+            <button type="submit" className="btn btn-dark px-5">
               Envoyer
             </button>
-          </div>
-          <div className="d-flex justify-content-center gap-4">
-            <a
-              className="text-dark"
-              target="blank"
-              href="https://www.instagram.com/the_princetoutcouleur/"
-            >
-              <FaInstagramSquare className="fs-2" />
-            </a>
-            <a
-              className="text-dark"
-              target="blank"
-              href="https://twitter.com/Babathiam01"
-            >
-              <FaTwitterSquare className="fs-2" />
-            </a>
-            <a
-              className="text-dark"
-              target="blank"
-              href="https://www.linkedin.com/in/baba-thiam-a7b86222a/"
-            >
-              <FaLinkedin className="fs-2" />
-            </a>
-            <a
-              className="text-dark"
-              target="blank"
-              href="https://github.com/Princetoutcouleur"
-            >
-              <FaGithub className="fs-2" />
-            </a>
           </div>
         </form>
       </div>
