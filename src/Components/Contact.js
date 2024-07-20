@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { FaGithub, FaInstagramSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -33,9 +34,9 @@ const Contact = () => {
   return (
     <div id="Contact" className="container-fluid py-5">
       <div className="text-center mb-5">
-        <h2 className="mb-3">Prenez contact avec nous</h2>
+        <h2 className="mb-3">Prenez contact</h2>
         <p>
-          J'aimerais avoir de vos nouvelles ! Discutons de la manière dont je
+          J'aimerais avoir de vos nouvelles ! <br />Discutons de la manière dont je
           peux vous aider à atteindre vos objectifs.
         </p>
       </div>
@@ -77,6 +78,36 @@ const Contact = () => {
             <button type="submit" className="btn btn-dark px-5">
               Envoyer
             </button>
+          </div>
+          <div className="d-flex justify-content-center gap-3">
+            <a
+              className="text-dark"
+              target="blank"
+              href="https://www.instagram.com/the_princetoutcouleur/"
+            >
+              <FaInstagramSquare className="fs-3" />
+            </a>
+            <a
+              className="text-dark"
+              target="blank"
+              href="https://twitter.com/Babathiam01"
+            >
+              <FaTwitterSquare className="fs-3" />
+            </a>
+            <a
+              className="text-dark"
+              target="blank"
+              href="https://www.linkedin.com/in/baba-thiam-a7b86222a/"
+            >
+              <FaLinkedin className="fs-3" />
+            </a>
+            <a
+              className="text-dark"
+              target="blank"
+              href="https://github.com/Princetoutcouleur"
+            >
+              <FaGithub className="fs-3" />
+            </a>
           </div>
         </form>
       </div>
