@@ -34,7 +34,7 @@ const Contact = () => {
   return (
     <div id="Contact" className="container-fluid py-5">
       <div className="text-center mb-5">
-        <h2 className="mb-3">Prenez contact</h2>
+        <h2 className="mb-3 ">Prenez contact</h2>
         <p>
           J'aimerais avoir de vos nouvelles ! <br />Discutons de la manière dont je
           peux vous aider à atteindre vos objectifs.
