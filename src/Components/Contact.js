@@ -18,7 +18,7 @@ const Contact = () => {
       from_name: name,
       from_email: email,
       to_name: "Baba Thiam",
-      nessage: message,
+      message: message,
     };
 
     emailjs
