@@ -32,20 +32,19 @@ const Contact = () => {
   };
 
   return (
-    <div id="Contact" className="container-fluid py-5">
+    <div id="Contact" className="container yellow py-5 text-black">
       <div className="text-center mb-5">
         <h2 className="mb-3 ">Prenez contact</h2>
         <p>
-          J'aimerais avoir de vos nouvelles ! <br />Discutons de la manière dont je
-          peux vous aider à atteindre vos objectifs.
+        Prêt à donner un coup d'accélérateur à votre présence en ligne ? <br /> Contactez-moi dès aujourd'hui pour discuter de votre projet !
         </p>
       </div>
       <div className="d-flex justify-content-center">
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <form id="contact-form " onSubmit={handleSubmit}>
           <div className="form-floating mb-3">
             <input
               type="text"
-              className="form-control rounded-0 border border-dark border-1"
+              className="form-control rounded-pill border border-dark border-1"
               placeholder="Nom Complet"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -56,7 +55,7 @@ const Contact = () => {
           <div className="form-floating mb-3">
             <input
               type="email"
-              className="form-control rounded-0 border border-dark border-1"
+              className="form-control rounded-pill border border-dark border-1"
               placeholder="name@example.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -66,7 +65,7 @@ const Contact = () => {
           </div>
           <div className="form-floating mb-3">
             <textarea
-              className="form-control rounded-0 border border-dark border-1"
+              className="form-control rounded-pill border border-dark border-1"
               placeholder="Message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}

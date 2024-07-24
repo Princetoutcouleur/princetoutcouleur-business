@@ -2,54 +2,31 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="About" className="container-fluid py-5">
+    <div id="About" className="container-fluid py-5 text-white">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-12">
-            <h2 className="mb-3">A propos de moi</h2>
+          <div className="col-lg-6 col-md-12 col-12 mb-3">
+            <h2 className="mb-3 text-capitalize">à propos</h2>
+            <h1 className="mb-3 gradient-text">The_princetoutcouleur Agency</h1>
             <p>
-              Je suis un développeur front-end passionné, doté d'un sens aigu du
-              design et d'une compréhension approfondie de l'expérience
-              utilisateur. Je me spécialise dans la création d'applications Web
-              belles, réactives et performantes qui ravissent les utilisateurs
-              et génèrent des résultats commerciaux.
+            Nous sommes spécialisés dans la création de sites vitrines et de landing pages sur mesure. Notre mission est de vous aider à booster votre présence en ligne, à augmenter votre notoriété et à stimuler vos ventes.
             </p>
             <p>
-              En plus de mes compétences en développement front-end, je suis
-              également optimiseur de profils sur les réseaux sociaux. J'aide
-              les particuliers et les entreprises à optimiser leur présence en
-              ligne, à accroître leur portée et à interagir plus efficacement
-              avec leur public cible.
+            En tant qu’expert en développement web et marketing digital, je mets mon savoir-faire à votre service pour créer des solutions web adaptées à vos besoins spécifiques.
             </p>
           </div>
-          <div className="col-lg-6 col-md-12 col-12 ">
-            <h2 className="mb-3">Mes Compétences</h2>
-            <div className="row">
-              <div className=" col-lg-6 col-md-6 col-sm-12 mb-3">
-                <div className="card rounded-0 shadow p-2">
-                  <h3 className="card-title">Développement front-end</h3>
-                  <ul>
-                    <li>HTML/CSS</li>
-                    <li>Bootstrap</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                  </ul>
-                </div>
-              </div>
-              <div className=" col-lg-6 col-md-6 col-sm-12 mb-3">
-                <div className="card rounded-0 shadow p-2">
-                  <h3 className="card-title">
-                    Optimisation des réseaux sociaux
-                  </h3>
-                  <ul>
-                    <li>Optimisation de profil</li>
-                    <li>Stratégie de contenu</li>
-                    <li>Engagement des cibles</li>
-                    <li>Ciblage d'audience</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <div className="col-lg-6 col-md-12 col-12 mb-3">
+            <h2 className="mb-3 text-capitalize">Pourquoi Nous Choisir ?</h2>
+            <ul className="mb-3">
+              <li className="mb-3"><span className="fw-bold">Expertise Personnalisée</span> : Avec moi, chaque projet bénéficie d'une attention individuelle et d'une expertise pointue.</li>
+              <li className="mb-3"><span className="fw-bold">Solutions Sur Mesure</span> : Chaque site ou landing page est conçu selon vos besoins spécifiques et objectifs.</li>
+              <li className="mb-3"><span className="fw-bold">Accompagnement Complet</span> : Je vous guide tout au long du processus, de la conception à la mise en ligne.</li>
+            </ul>
+            <a href="#Contact">
+                <button className="btn btn-link border border-warning border-1 text-warning">
+                  Contacter Nous
+                </button>
+              </a>
           </div>
         </div>
       </div>

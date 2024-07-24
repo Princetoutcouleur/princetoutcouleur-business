@@ -12,18 +12,30 @@ import { FaArrowAltCircleUp } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="App container-fluid">
-      <Navigation />
-      <Header />
+    <div className="App bg-black text-white p-0 container-fluid">
+      <div className="banner vh-100">
+        <Navigation />
+        <Header />
+      </div>
       <About />
-      <Portfolio />
       <Services />
+      {/* <Portfolio /> */}
       <Contact />
-      <a href="#Navigation">
-        <button className="btn btn-dark floating-button rounded-pill pb-2">
-          <FaArrowAltCircleUp className="fs-5" />
-        </button>
-      </a>
+      <div className="bg-black d-flex justify-content-between align-items-center">
+        <div>
+          <p className="ms-3">
+            <span className="gradient-text fw-bold">The_princetoutcouleur Agency</span> <br />Transformez votre vision en réalité
+            digitale.
+          </p>
+        </div>
+        <div>
+          <a href="#Navigation">
+            <button className="btn btn-link border border-warning border-1 text-warning m-3 rounded-pill">
+              Remonter
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

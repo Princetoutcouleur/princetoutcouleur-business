@@ -1,42 +1,50 @@
 import React from 'react'
 import CardServices from './CardServices'
-import { FaCode } from "react-icons/fa";
-import { BsFillPeopleFill } from "react-icons/bs";
+import icondev from '../Asset/dev icon services.png'
+import iconMarketing from '../Asset/boost icon services.png'
+import iconlanding from '../Asset/landing icon.png'
 
 
 
 const Services = () => {
   const CardData = [
     {
-      icon: <FaCode/>,
-      title: "Développement front-end",
+      img: icondev,
+      title: "Création de Sites Vitrines",
       description:
-        "Je conçois et développe des applications Web modernes, réactives et performantes en utilisant les dernières technologies frontend.",
-      message: "Bonjour, je veux plus d'information concernant vos services de Développement front-end",
+        "Présentez votre entreprise, vos produits ou vos services de manière professionnelle et attrayante avec un site vitrine conçu pour captiver et engager vos visiteurs.",
+      message: "Bonjour, je veux plus d'information concernant vos services de Création de Sites Vitrines",
     },
     {
-      icon: <BsFillPeopleFill/>,
-      title: "Optimisation de réseaux sociaux",
+      img: iconMarketing,
+      title: "Optimisation de la Présence en Ligne",
       description:
-        "J'aide les particuliers et les entreprises à optimiser leur présence en ligne, à accroître leur portée et à interagir plus efficacement avec leur public cible.",
-        message: "Bonjour, je veux plus d'information concernant vos services d'Optimisation de réseaux sociaux"
+        "Améliorez votre visibilité et votre impact en ligne grâce à des stratégies personnalisées et efficaces.",
+        message: "Bonjour, je veux plus d'information concernant vos services d'Optimisation de la Présence en Ligne"
+    },
+    {
+      img: iconlanding,
+      title: "Développement de Landing Pages",
+      description:
+        "Maximisez vos conversions avec des pages de destination optimisées pour générer des leads et augmenter vos ventes.",
+      message: "Bonjour, je veux plus d'information concernant vos services de Développement de Landing Pages",
     },
   ];
   return (
     <div id="Services" className="container-fluid py-5">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="mb-3">Mes Services</h2>
+          <h2 className="mb-3">Nos Services</h2>
           <p>
-            Je propose une gamme de services pour vous aider à atteindre vos
+            On propose une gamme de services pour vous aider à atteindre vos
             objectifs en ligne.
           </p>
         </div>
         <div className="row">
           {CardData.map((card) => (
-            <div className="col-lg-6 col-md-6 col-sm-12 pb-3">
+            <div className="col-lg-4 col-md-6 col-sm-12 pb-3">
               <CardServices
-                icon={card.icon}
+                img={card.img}
                 title={card.title}
                 description={card.description}
                 message={card.message}
