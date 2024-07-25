@@ -3,7 +3,7 @@ import React from "react";
 const CardProject = (props) => {
   return (
     <div id="CardProject" className="mb-3">
-      <div class="card rounded-0 shadow">
+      <div class="card text-white bg-transparent border rounded-0 shadow">
         <div className="card-img-top p-3">
           <img
             src={props.image}
@@ -20,7 +20,7 @@ const CardProject = (props) => {
           <div className="">
             <div>
                 <a href={props.url} className="text-white text-decoration-none">
-                <button className="btn btn-dark mx-auto">
+                <button className="btn yellow mx-auto">
                   Voir Projet
                 </button>
                 </a>

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {
   FaGithub,
   FaInstagramSquare,
@@ -29,15 +31,19 @@ const Contact = () => {
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log("Message envoyé avec succés!", response);
+        toast.success("Message envoyé avec succès!");
+        setName("");
+        setEmail("");
+        setMessage("");
       })
       .catch((error) => {
-        console.log("Message non envoyé", error);
+        toast.error("Message non envoyé");
       });
   };
 
   return (
-    <div id="Contact" className="container  py-5 text-black">
+    <div id="Contact" className="container-fluid  p-5 text-black">
+      <ToastContainer />
       <div className="yellow m-4 p-4 rounded-4">
         <div className="text-center mb-5">
           <h2 className="mb-3 ">Prenez contact</h2>

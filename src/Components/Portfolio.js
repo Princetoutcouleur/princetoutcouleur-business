@@ -23,15 +23,16 @@ const Portfolio = () => {
   return (
     <div id="Portfolio" className="container-fluid py-5">
       <div className="container">
-        <div className="text-center mb-5">
-          <h2 className="mb-3">Mon Portfolio</h2>
+        <div className="row">
+        <div className="col-lg-4 col-md-4 col-sm-12 mb-5">
+          <h2 className="mb-3">Quelques piéces de notre travail</h2>
           <p>
-          Découvrez certains de mes récents projets de développement frontend.
+          Découvrez certains de nos récents projets réalisés avec beaucoup de savoir-faire et adaptés aux besoins spécifiques de nos clients.
           </p>
         </div>
-        <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12 row">
           {CardData.map((card) => (
-            <div className="col-lg-4 col-md-6 col-sm-12 pb-3">
+            <div className="col-lg-6 col-md-6 col-sm-12 pb-3">
               <CardProject
                 image={card.image}
                 title={card.title}
@@ -40,6 +41,7 @@ const Portfolio = () => {
               />
             </div>
           ))}
+        </div>
         </div>
       </div>
     </div>

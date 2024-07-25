@@ -8,7 +8,6 @@ import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
-import { FaArrowAltCircleUp } from "react-icons/fa";
 
 function App() {
   return (
@@ -19,9 +18,9 @@ function App() {
       </div>
       <About />
       <Services />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <Contact />
-      <div className="bg-black d-flex justify-content-between align-items-center">
+      <div className="footer d-flex justify-content-between align-items-center">
         <div>
           <p className="ms-3">
             <span className="gradient-text fw-bold">The_princetoutcouleur Agency</span> <br />Transformez votre vision en réalité
