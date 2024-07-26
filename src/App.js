@@ -23,7 +23,7 @@ function App() {
       <div className="footer d-flex justify-content-between align-items-center">
         <div>
           <p className="ms-3">
-            <span className="gradient-text fw-bold">The_princetoutcouleur Agency</span> <br />Transformez votre vision en réalité
+            <span className="gradient-text fw-bold">WebLeads Growth</span> <br />Transformez votre vision en réalité
             digitale.
           </p>
         </div>

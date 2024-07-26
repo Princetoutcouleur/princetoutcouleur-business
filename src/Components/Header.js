@@ -9,7 +9,7 @@ const Header = () => {
             <h1 className="mb-3 text-capitalize">
               Attirez de<br /> <span className="gradient-text">nouveaux prospects</span> <br /> comme jamais auparavant
             </h1>
-            <p className="fs-6 fw-bold">Bienvenue chez The_princetoutcouleur Agency</p>
+            <p className="fs-6 fw-bold">Bienvenue chez WebLeads Growth</p>
             <p className="mb-5">
               Votre partenaire digital pour transformer votre présence en ligne.
             </p>

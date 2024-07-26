@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <nav id='Navigation' class="navbar navbar-expand-lg text-white">
   <div class="container">
-    <a class="navbar-brand text-white fw-semibold" href="#">The_Princetoutcouleur Agency</a>
+    <a class="navbar-brand text-white fw-semibold" href="#">WebLeads Growth</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <FaBarsStaggered className='text-white fs-3'/>
     </button>

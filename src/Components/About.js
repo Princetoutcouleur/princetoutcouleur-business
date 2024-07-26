@@ -7,7 +7,7 @@ const About = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12 col-12 mb-3">
             <h2 className="mb-3 text-capitalize">à propos</h2>
-            <h1 className="mb-3 gradient-text">The_princetoutcouleur Agency</h1>
+            <h1 className="mb-3 gradient-text">WebLeads Growth</h1>
             <p>
             Nous sommes spécialisés dans la création de sites vitrines et de landing pages sur mesure. Notre mission est de vous aider à booster votre présence en ligne, à augmenter votre notoriété et à stimuler vos ventes.
             </p>
