@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -20,21 +21,7 @@ function App() {
       <Services />
       <Portfolio />
       <Contact />
-      <div className="footer d-flex justify-content-between align-items-center">
-        <div>
-          <p className="ms-3">
-            <span className="gradient-text fw-bold">WebLeads Growth</span> <br />Transformez votre vision en réalité
-            digitale.
-          </p>
-        </div>
-        <div>
-          <a href="#Navigation">
-            <button className="btn btn-link border border-warning border-1 text-warning m-3 rounded-pill">
-              Remonter
-            </button>
-          </a>
-        </div>
-      </div>
+      <Footer/>
     </div>
   );
 }

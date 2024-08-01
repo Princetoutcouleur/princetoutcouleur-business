@@ -9,19 +9,19 @@ const Header = () => {
             <h1 className="mb-3 text-capitalize">
               Attirez de<br /> <span className="gradient-text">nouveaux prospects</span> <br /> comme jamais auparavant
             </h1>
-            <p className="fs-6 fw-bold">Bienvenue chez WebLeads Growth</p>
+            <p className="fs-6 fw-bold">Boostez Votre Présence en Ligne</p>
             <p className="mb-5">
-              Votre partenaire digital pour transformer votre présence en ligne.
+            Transformez votre vision en réalité digitale avec The_Princetoutcouleur.
             </p>
             <div className="d-flex justify-content-center gap-3">
               <a href="#Contact">
                 <button className="btn btn-default border border-dark border-1 yellow">
-                  Contacter Nous
+                  Contacter Moi
                 </button>
               </a>
               <a href="#Portfolio">
                 <button className="btn btn-light border border-dark border-1">
-                  Voir Nos Réalisations
+                  Voir Mes Réalisations
                 </button>
               </a>
             </div>

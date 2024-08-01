@@ -48,8 +48,7 @@ const Contact = () => {
         <div className="text-center mb-5">
           <h2 className="mb-3 ">Prenez contact</h2>
           <p>
-            Prêt à donner un coup d'accélérateur à votre présence en ligne ?{" "}
-            <br /> Contactez-moi dès aujourd'hui pour discuter de votre projet !
+          Nous serions ravis de discuter de votre projet. <br /> Remplissez le formulaire ci-dessous pour nous contacter.
           </p>
         </div>
         <div className="d-flex justify-content-center">
@@ -91,34 +90,38 @@ const Contact = () => {
                 Envoyer
               </button>
             </div>
+            <div className="text-center">
+            <h3>Mes Réseaux Sociaux</h3>
+            <p>Suivez-moi sur les réseaux sociaux pour les dernières nouvelles et mises à jour.</p>
+            </div>
             <div className="d-flex justify-content-center gap-3">
               <a
                 className="text-dark"
                 target="blank"
                 href="https://www.instagram.com/the_princetoutcouleur/"
               >
-                <FaInstagramSquare className="fs-3" />
+                <FaInstagramSquare className="fs-2" />
               </a>
               <a
                 className="text-dark"
                 target="blank"
                 href="https://twitter.com/Babathiam01"
               >
-                <FaTwitterSquare className="fs-3" />
+                <FaTwitterSquare className="fs-2" />
               </a>
               <a
                 className="text-dark"
                 target="blank"
                 href="https://www.linkedin.com/in/baba-thiam-a7b86222a/"
               >
-                <FaLinkedin className="fs-3" />
+                <FaLinkedin className="fs-2" />
               </a>
               <a
                 className="text-dark"
                 target="blank"
                 href="https://github.com/Princetoutcouleur"
               >
-                <FaGithub className="fs-3" />
+                <FaGithub className="fs-2" />
               </a>
             </div>
           </form>
