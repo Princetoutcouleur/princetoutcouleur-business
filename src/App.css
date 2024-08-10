@@ -1,3 +1,6 @@
+.App {
+  background-color: #110f0f;
+}
 .banner {
   background-image: url(../src/Asset/Frame.png);
   background-position: center;
@@ -5,12 +8,17 @@
   background-repeat: no-repeat;
 }
 .gradient-text {
-  background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49%, rgba(157,232,238,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(159, 140, 237, 1) 0%,
+    rgba(250, 124, 11, 1) 49%,
+    rgba(157, 232, 238, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow{
-  background-color: #FFA800 !important;
+.yellow {
+  background-color: #ffa800 !important;
 }
 #Navigation {
   background: rgba(15, 15, 15, 0.53);
@@ -19,8 +27,8 @@
   -webkit-backdrop-filter: blur(3.1px);
   color: #ffffff;
 }
-#Header{
-  color: #ffffff
+#Header {
+  color: #ffffff;
 }
 #hero h1 {
   font-size: 8vw;
@@ -45,20 +53,52 @@
   }
 }
 
-#Services{
-  background-color: #110F0F;
+#Services {
+  background-color: #110f0f;
 }
-#CardServices card{
+#CardServices card {
   height: 100px;
 }
-#whatsapp{
-  background-color: #25D366;
+#whatsapp {
+  background-color: #25d366;
   color: #ffffff;
   font-weight: bold;
 }
-#Contact{
-  background-color: #110F0F;
+#Contact {
+  background-color: #110f0f;
 }
-.footer{
-  background-color: #110F0F;
+.footer {
+  background-color: #110f0f;
+}
+
+.modal-content {
+  background-color: #110f0f !important;
+}
+#Tableau {
+  background-color: #110f0f !important;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  list-style: none;
+}
+
+.page-link {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.page-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.page-link.disabled {
+  pointer-events: none;
+  color: #6c757d;
 }
