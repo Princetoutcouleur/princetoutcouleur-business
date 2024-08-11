@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <a href="#Navigation">
+          <a href="/#Header">
             <button className="btn btn-link border border-warning border-1 text-warning m-3 rounded-pill">
               Remonter
             </button>

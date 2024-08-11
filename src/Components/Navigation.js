@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav id="Navigation" className="navbar navbar-expand-lg text-white">
+    <nav id="Navigation" className="navbar navbar-expand-lg text-white fixed-top">
       <div className="container">
         <a className="navbar-brand text-white fw-semibold" href="/">
           The_Princetoutcouleur
@@ -31,15 +31,15 @@ const Navigation = () => {
 
             <a
               className="nav-link fw-bold text-white text-capitalize"
-              href="#About"
+              href="/#About"
             >
               à propos
             </a>
-            <a className="nav-link fw-bold text-white" href="#Portfolio">
-              Portfolio
-            </a>
-            <a className="nav-link fw-bold text-white" href="#Services">
+            <a className="nav-link fw-bold text-white" href="/#Services">
               Services
+            </a>
+            <a className="nav-link fw-bold text-white" href="/#Portfolio">
+              Portfolio
             </a>
             <Link
               to="/blog"
@@ -47,7 +47,7 @@ const Navigation = () => {
             >
               Blog
             </Link>
-            <a className="nav-link fw-bold text-white" href="#Contact">
+            <a className="nav-link fw-bold text-white" href="/#Contact">
               Contact
             </a>
           </div>
