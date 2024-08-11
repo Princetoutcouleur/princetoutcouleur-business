@@ -44,7 +44,7 @@ const Contact = () => {
   return (
     <div id="Contact" className="container-fluid  p-5 text-black">
       <ToastContainer />
-      <div className="yellow m-4 p-4 rounded-4">
+      <div className="yellow py-3 rounded-4">
         <div className="text-center mb-5">
           <h2 className="mb-3 ">Prenez contact</h2>
           <p>
@@ -52,7 +52,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="d-flex justify-content-center">
-          <form id="contact-form " onSubmit={handleSubmit}>
+          <form id="contact-form" className="mx-3" onSubmit={handleSubmit}>
             <div className="form-floating mb-3">
               <input
                 type="text"
