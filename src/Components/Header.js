@@ -4,15 +4,15 @@ const Header = () => {
   return (
     <div id="Header" className="container-fluid">
       <div className="container py-5">
-        <div className="row d-flex justify-content-center">
-          <div className="col-lg-6 col-md-6 col-sm-12 mb-5 pt-5 text-center">
+        <div className="d-flex justify-content-center align-items-center py-5">
+          <div className=" text-center">
             <h1 className="mb-3 text-capitalize">
               Attirez de<br /> <span className="gradient-text">nouveaux prospects</span> <br /> comme jamais auparavant
             </h1>
-            <p className="fs-6 fw-bold">Boostez Votre Présence en Ligne</p>
-            <p className="mb-5">
+            <h2 className="text-capitalize fw-bold">Boostez Votre Présence en Ligne avec un site web professionnel</h2>
+            <h3 className="mb-5">
             Transformez votre vision en réalité digitale avec The_Princetoutcouleur.
-            </p>
+            </h3>
             <div className="d-flex justify-content-center gap-3">
               <a href="#Contact">
                 <button className="btn btn-default border border-dark border-1 yellow">
