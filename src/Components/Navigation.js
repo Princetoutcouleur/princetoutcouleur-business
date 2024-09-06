@@ -1,27 +1,52 @@
-import React from 'react'
-import { FaBarsStaggered } from "react-icons/fa6";
-
-
+import React from "react";
+import baba from "../Asset/baba.png";
 
 const Navigation = () => {
   return (
-    <nav id='Navigation' class="navbar navbar-expand-lg text-white">
-  <div class="container">
-    <a class="navbar-brand text-white fw-semibold" href="#">The_Princetoutcouleur Agency</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <FaBarsStaggered className='text-white fs-3'/>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto ">
-        <a class="nav-link fw-bold text-white " href="#About">A propos</a>
-        <a class="nav-link fw-bold text-white" href="#Portfolio">Portfolio</a>
-        <a class="nav-link fw-bold text-white" href="#Services">Services</a>
-        <a class="nav-link fw-bold text-white" href="#Contact">Contact</a>
+    <nav
+      id="Navigation"
+      className="navbar navbar-expand-lg text-white container-fluid d-flex justify-content-between fixed-top"
+    >
+      <div className="container d-flex justify-content-between align-items-center">
+        <div className="d-flex gap-3 align-items-center">
+          <img
+            src={baba}
+            className="img-fluid rounded-circle"
+            width="40px"
+            alt=""
+          />
+          <p className="fw-bold mt-3 fs-6">Baba Thiam</p>
+        </div>
+        <ul className="NavItem list-unstyled d-none d-lg-flex gap-4 pt-3">
+          <li>
+            <a href="#" className="text-decoration-none text-white">
+              Accueil
+            </a>
+          </li>
+          <li>
+            <a href="#Services" className="text-decoration-none text-white">
+              Offre
+            </a>
+          </li>
+          <li>
+            <a href="#question" className="text-decoration-none text-white">
+              Questions
+            </a>
+          </li>
+          <li>
+            <a href="#Contact" className="text-decoration-none text-white">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <div>
+          <button className="btn btn-default yellow rounded-pill text-white">
+            Me contacter
+          </button>
+        </div>
       </div>
-    </div>
-  </div>
-</nav>
-  )
-}
+    </nav>
+  );
+};
 
-export default Navigation
+export default Navigation;

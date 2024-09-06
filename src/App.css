@@ -15,6 +15,7 @@ background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49
 */
 
 .banner {
+  background:linear-gradient(to bottom, transparent 20%, white 80%);
   background-image: url(../src/Asset/Frame.png);
   background-position: center;
   background-size: cover;
@@ -26,7 +27,10 @@ background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49
   -webkit-text-fill-color: transparent;
 }
 .yellow{
-  background-color: #FFA800 !important;
+  background-color: rgba(250,124,11,1) !important;
+}
+.yellow-text{
+  color: rgba(250,124,11,1) !important;
 }
 #Navigation {
   background: rgba(15, 15, 15, 0.53);
@@ -39,16 +43,21 @@ background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49
   color: #ffffff
 }
 #Header h1{
-  font-size: 36px;
+  font-size: 48px;
+  line-height: 66px;
 }
 #Services{
   background-color: #110F0F;
 }
-#CardServices card{
-  height: 100px;
+#Services #CardServices .card{
+  height: 390px;
 }
-#whatsapp{
-  background-color: #25D366;
-  color: #ffffff;
-  font-weight: bold;
+#Services #CardServices .card:hover{
+  border: 1px solid rgba(250,124,11,1) !important;
+}
+#Services #CardStep .card{
+  height: 260px;
+}
+#Services #CardStep .card:hover{
+  border: 1px solid rgba(250,124,11,1) !important;
 }

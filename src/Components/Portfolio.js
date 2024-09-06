@@ -1,37 +1,35 @@
 import React from "react";
-import Daleundakaru from "../Asset/projects/daleundakaru.png";
-import Tayeur from "../Asset/projects/tayeur.png";
+import Solar from "../Asset/projects/solar-life.png";
 import CardProject from "./CardProject";
 
 const Portfolio = () => {
   const CardData = [
     {
-      title: "daleu ndakaru",
-      image: Daleundakaru,
+      title: "Solar Life",
+      image: Solar,
       description:
-        "Création et gestion d'une marque de sneakers vendue sur les réseaux sociaux. Augmentation de la base de clients et des ventes grâce à une stratégie de marketing digital efficace.",
-      url: "https://daleundakaru.com",
+        "Site web pour une entreprise d'énergie solaire.",
+      url: "https://solar-life.vercel.app/",
     },
     {
-      title: "tayeur",
-      image: Tayeur,
+      title: "Solar Life",
+      image: Solar,
       description:
-        "Pour ma première mission professionnelle, j'ai intégré les interfaces utilisateur avec React.js et Bootstrap, en collaboration avec l'équipe backend, améliorant ainsi l'expérience utilisateur et la communication entre les équipes .",
-      url: "https://tayeur-gestion.vercel.app/",
+        "Site web pour une entreprise d'énergie solaire.",
+      url: "https://solar-life.vercel.app/",
     },
   ];
   return (
     <div id="Portfolio" className="container-fluid py-5">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="mb-3">Mon Portfolio</h2>
-          <p>
-          Découvrez certains de mes récents projets de développement frontend.
-          </p>
+          <h1 className="section-title">
+          Découvrez certains de mes récents projets.
+          </h1>
         </div>
         <div className="row">
           {CardData.map((card) => (
-            <div className="col-lg-4 col-md-6 col-sm-12 pb-3">
+            <div className="col-lg-6 col-md-6 col-sm-12 pb-3">
               <CardProject
                 image={card.image}
                 title={card.title}

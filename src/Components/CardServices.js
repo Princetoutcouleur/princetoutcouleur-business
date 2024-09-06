@@ -1,27 +1,19 @@
 import React from "react";
-import WhatsApp from 'react-whatsapp';
 
 const CardServices = (props) => {
+  const IconComponent = props.icon;
+
   return (
     <div id="CardServices" className="mb-3">
-      <div class="card border text-white bg-transparent rounded-0 shadow p-3">
-        <div class="card-body">
-          <div className="">
-            <img src={props.img} alt="" className="mb-2"/>
+      <div className="card border text-white bg-transparent rounded-0 p-2">
+        <div className="card-body">
+          <div className="mb-3">
+            {IconComponent && <IconComponent className='fs-2 yellow-text'/>} 
           </div>
-            <div>
-              <h5 class="card-title text-capitalize fs-4">{props.title}</h5>
-            </div>
-          <p class="card-text">{props.description}</p>
-          <div className="">
-            <div>
-              <WhatsApp
-                number="+221771010502"
-                message={props.message}
-                className="btn btn-default mx-auto " id="whatsapp"
-              >Parlons-en sur WhatsApp</WhatsApp>
-            </div>
+          <div>
+            <h5 className="card-title text-capitalize fs-4 yellow-text">{props.title}</h5>
           </div>
+          <p className="card-text">{props.description}</p>
         </div>
       </div>
     </div>

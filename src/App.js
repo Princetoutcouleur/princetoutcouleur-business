@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import Navigation from "./Components/Navigation";
 import Header from "./Components/Header";
-import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 import Services from "./Components/Services";
+import Question from "./Components/Question";
 import Contact from "./Components/Contact";
-import { FaArrowAltCircleUp } from "react-icons/fa";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,25 +17,11 @@ function App() {
         <Navigation />
         <Header />
       </div>
-      <About />
+      <Portfolio />
       <Services />
-      {/* <Portfolio /> */}
+      <Question />
       <Contact />
-      <div className="bg-black d-flex justify-content-between align-items-center">
-        <div>
-          <p className="ms-3">
-            <span className="gradient-text fw-bold">The_princetoutcouleur Agency</span> <br />Transformez votre vision en réalité
-            digitale.
-          </p>
-        </div>
-        <div>
-          <a href="#Navigation">
-            <button className="btn btn-link border border-warning border-1 text-warning m-3 rounded-pill">
-              Remonter
-            </button>
-          </a>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }
