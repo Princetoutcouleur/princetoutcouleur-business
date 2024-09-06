@@ -1,19 +1,6 @@
-/* navbar background
-background: rgba(15, 15, 15, 0.53);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.1px);
--webkit-backdrop-filter: blur(3.1px);
-*/
-
-/* black background : #000000 */
-/* grey background : #110F0F */
-/* yellow background : #FFA800 */
-/* text color : FFFFFF */
-/* gradient color : 
-background: rgb(159,140,237);
-background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49%, rgba(157,232,238,1) 100%);
-*/
-
+.App {
+  background-color: #110f0f;
+}
 .banner {
   background:linear-gradient(to bottom, transparent 20%, white 80%);
   background-image: url(../src/Asset/Frame.png);
@@ -22,7 +9,12 @@ background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49
   background-repeat: no-repeat;
 }
 .gradient-text {
-  background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49%, rgba(157,232,238,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(159, 140, 237, 1) 0%,
+    rgba(250, 124, 11, 1) 49%,
+    rgba(157, 232, 238, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -39,15 +31,18 @@ background: linear-gradient(90deg, rgba(159,140,237,1) 0%, rgba(250,124,11,1) 49
   -webkit-backdrop-filter: blur(3.1px);
   color: #ffffff;
 }
-#Header{
-  color: #ffffff
+#Header {
+  color: #ffffff;
 }
 #Header h1{
   font-size: 48px;
   line-height: 66px;
 }
-#Services{
-  background-color: #110F0F;
+
+@media (max-width: 600px) {
+  #Header h1 {
+    font-size: 50px;
+  }
 }
 #Services #CardServices .card{
   height: 390px;
