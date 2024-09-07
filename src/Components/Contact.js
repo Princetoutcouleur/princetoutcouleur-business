@@ -21,7 +21,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="text-center">
-          <a href="#Contact">
+          <a href="https://tally.so/r/m6vN5o">
             <button className="btn btn-default border border-dark border-1 yellow px-4 rounded-pill text-white">
               Me contacter
             </button>

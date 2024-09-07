@@ -29,7 +29,7 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <a href="#question" className="text-decoration-none text-white">
+            <a href="#Question" className="text-decoration-none text-white">
               Questions
             </a>
           </li>
@@ -40,9 +40,11 @@ const Navigation = () => {
           </li>
         </ul>
         <div>
-          <button className="btn btn-default yellow rounded-pill text-white">
-            Me contacter
-          </button>
+          <a href="#Contact">
+            <button className="btn btn-default yellow rounded-pill text-white">
+              Me contacter
+            </button>
+          </a>
         </div>
       </div>
     </nav>

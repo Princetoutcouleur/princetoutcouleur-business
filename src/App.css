@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .App {
   background-color: #110f0f;
 }
 .banner {
   background:linear-gradient(to bottom, transparent 20%, white 80%);
   background-image: url(../src/Asset/Frame.png);
-  background-position: center;
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -34,16 +41,90 @@
 #Header {
   color: #ffffff;
 }
-#Header h1{
-  font-size: 48px;
-  line-height: 66px;
+#Header h1 {
+  font-size: 80px;
+  line-height: 70px;
 }
 
-@media (max-width: 600px) {
+.section-title {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+/* Media query pour les écrans de taille mobile */
+@media (max-width: 1440px) {
   #Header h1 {
-    font-size: 50px;
+    font-size: 55px;
+    line-height: 66px;
+  }
+
+  .section-title {
+    font-size: 42px;
+    line-height: 38px;
   }
 }
+/* Media query pour les écrans de taille mobile */
+@media (max-width: 1024px) {
+  #Header h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+/* Media query pour les très petits écrans (téléphones) */
+@media (max-width: 770px) {
+  #Header h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  
+  .section-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+/* Media query pour les très petits écrans (téléphones) */
+@media (max-width: 600px) {
+  #Header h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+/* Media query pour les très petits écrans (téléphones) */
+@media (max-width: 330px) {
+  #Header h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 300px) {
+  #Header h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
 #Services #CardServices .card{
   height: 390px;
 }

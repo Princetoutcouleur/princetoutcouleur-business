@@ -63,7 +63,7 @@ const Question = () => {
   };
 
   return (
-    <div className="container-fluid py-5">
+    <div id="Question" className="container-fluid py-5">
       <h1 className="text-center mb-5 section-title">Questions fréquentes</h1>
       <div className="accordion container" id="accordionExample">
         {faqData.map((item) => (
