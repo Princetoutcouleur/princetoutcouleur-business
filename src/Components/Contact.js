@@ -4,7 +4,7 @@ import baba from "../Asset/baba.png";
 const Contact = () => {
   return (
     <div id="Contact" className="container-fluid py-5 text-white">
-      <div className="text-center mt-5">
+      <div className="text-center mt-5" data-aos="fade-up">
         <h2 className="mb-3 section-title">Comment puis-je vous aider ?</h2>
         <p>
           Pour commencer, vous pouvez me contacter en cliquant sur le bouton

@@ -23,7 +23,7 @@ const Portfolio = () => {
     <div id="Portfolio" className="container-fluid py-5">
       <div className="container">
         <div className="text-center mb-5">
-          <h1 className="section-title">
+          <h1 className="section-title" data-aos="fade-up">
           Découvrez certains de mes récents projets.
           </h1>
         </div>

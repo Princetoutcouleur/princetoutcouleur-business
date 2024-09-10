@@ -74,7 +74,7 @@ const Services = () => {
     <div id="Services" className="container-fluid py-5">
       <div className="container">
         <div className="text-center mb-5">
-          <h1 className="mb-3 section-title">
+          <h1 className="mb-3 section-title" data-aos="fade-up">
             La création de <span className="gradient-text">site internet</span>{" "}
             n'a jamais été aussi <span className="gradient-text">simple</span>
           </h1>
@@ -90,7 +90,7 @@ const Services = () => {
             </div>
           ))}
         </div>
-        <div className="text-center my-5">
+        <div className="text-center my-5" data-aos="fade-down">
           <h1 className="mb-3 section-title">
             Je crée votre site internet en{" "}
             <span className="gradient-text">3 étapes</span>
@@ -112,7 +112,7 @@ const Services = () => {
             </div>
           ))}
         </div>
-        <div className="text-center">
+        <div className="text-center" data-aos="zoom-out-down">
           <a href="https://tally.so/r/m6vN5o">
             <button className="btn btn-default border border-dark border-1 yellow px-4 rounded-pill text-white">
               Discutons de votre projet

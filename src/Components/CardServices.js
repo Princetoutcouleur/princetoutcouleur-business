@@ -4,7 +4,7 @@ const CardServices = (props) => {
   const IconComponent = props.icon;
 
   return (
-    <div id="CardServices" className="mb-3">
+    <div id="CardServices" className="mb-3" data-aos="zoom-in">
       <div className="card border text-white bg-transparent rounded-0 p-2">
         <div className="card-body">
           <div className="mb-3">

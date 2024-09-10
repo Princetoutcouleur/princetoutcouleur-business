@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardStep = (props) => {
   return (
-    <div id="CardStep" className="mb-3">
+    <div id="CardStep" className="mb-3" data-aos="zoom-out">
       <div className="card border text-white bg-transparent rounded-4 p-2">
         <div className="card-body">
           <div className='d-flex justify-content-center'>
