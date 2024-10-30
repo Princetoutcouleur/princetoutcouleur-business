@@ -11,13 +11,6 @@ const Portfolio = () => {
         "Site web pour une entreprise d'énergie solaire.",
       url: "https://solar-life.vercel.app/",
     },
-    {
-      title: "Solar Life",
-      image: Solar,
-      description:
-        "Site web pour une entreprise d'énergie solaire.",
-      url: "https://solar-life.vercel.app/",
-    },
   ];
   return (
     <div id="Portfolio" className="container-fluid py-5">

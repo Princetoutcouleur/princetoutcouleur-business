@@ -19,7 +19,7 @@ const Navigation = () => {
         </div>
         <ul className="NavItem list-unstyled d-none d-lg-flex gap-4 pt-3" data-aos="fade-down">
           <li>
-            <a href="#" className="text-decoration-none text-white">
+            <a href="/" className="text-decoration-none text-white">
               Accueil
             </a>
           </li>

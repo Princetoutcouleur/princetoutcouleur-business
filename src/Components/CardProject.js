@@ -2,7 +2,7 @@ import React from "react";
 
 const CardProject = (props) => {
   return (
-    <div id="CardProject" className="mb-3" data-aos="flip-up">
+    <div id="CardProject" className="mb-3">
       <div class="card rounded-4 shadow">
         <div className="card-img-top p-3">
           <img

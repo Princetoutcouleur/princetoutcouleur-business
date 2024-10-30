@@ -15,7 +15,7 @@ const Header = () => {
               Ensemble, on va bâtir un site web qui met en lumière votre
               activité
             </p>
-            <div className="" data-aos="zoom-in">
+            <div className="" data-aos="zoom-out">
               <a href="https://tally.so/r/m6vN5o">
                 <button className="btn btn-default border border-dark border-1 yellow px-4 rounded-pill text-white">
                 Discutons de votre projet
